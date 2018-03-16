@@ -1,0 +1,53 @@
+#header{color: white; border-bottom: 0.05rem solid #eaeaea;}
+#header>a{color: white;text-decoration: none;}
+#header>h2{ display: inline-block;float: left; font-size: 0.34rem; line-height: 0.9rem; margin-left: 0.2rem;}
+#header>h2>a{display: block;font-size: 0.34rem;line-height: 0.9rem;margin-left: 0.2rem;text-decoration: none;color: white;}
+#header>h1{ display: inline-block; font-size: 0.34rem; line-height: 0.9rem;}
+
+#content>.title{position: relative;}
+#content>.title>h1{float: left; color: #292929; margin-top: 0.18rem; font-size: 0.36rem; margin-left: 0.35rem;font-weight: normal;}
+#content>.title>h2{float: left; color: #969595; margin-top: 0.25rem; font-size: 0.32rem;font-weight: normal;}
+#content>.title>a>.icon{float: right;margin-top: 0.2rem; margin-right: 0.2rem;}
+#content>.title>a>.icon>span{display: block; width: 0.4rem;height: 0.05rem;background-color: black; margin-top: 0.1rem;}
+#content>.middle{clear: both;width: 100%;}
+
+#content>.middle>h1{font-weight: normal; font-size: 0.34rem;text-align:center;padding-left: 0.3rem;padding-right: 0.3rem;line-height: 0.5rem;padding-bottom: 0.2rem;color: #01a1ff;padding-top: 0.2rem;border-bottom: 1px dotted #c6c6c6}
+#content>.middle>p:nth-of-type(1){font-size: 0.32rem;text-indent: 2em;color: #969595;line-height: 0.45rem;margin-top: 0.2rem;margin-left: 0.2rem;margin-right: 0.2rem;line-height: 0.45rem;}
+#content>.middle>p:nth-of-type(2){font-size: 0.26rem;color: #3b3b3b;margin-left: 1.5rem;}
+#content>.middle>p:nth-of-type(3){font-size: 0.32rem;text-indent: 2em;color: #969595;margin-top: 0.2rem;margin-left: 0.2rem;margin-right: 0.2rem;line-height: 0.45rem;}
+#content>.middle>p:nth-of-type(4){font-size: 0.32rem;text-indent: 2em;color: #969595;line-height: 0.45rem;}
+#content>.middle>a>button{width: 1.55rem;height: 0.45rem;background-color: #adce43;color: white;border-radius: 0.3rem;margin-top: 0.3rem;margin-bottom: 0.25rem;margin-left: 2.43rem;}
+
+#content>.middle>img{margin-top:0.2rem;display: inline-block;width: 2.95rem;height: 1.62rem;display: inline-block;margin-left: 1.74rem;}
+
+/***合作伙伴***/
+#content>.middle>.partner>.title{text-align: center; border-top: 0.02rem solid #eaeaea;}
+#content>.middle>.partner>.title>h3{font-size: 0.38rem; margin-top: 0.2rem; color: #111111;font-weight: normal;}
+#content>.middle>.partner>.title>span{display: inline-block;width: 2rem;height: 0.01rem;background-color: black; margin: 0.05 auto;}
+#content>.middle>.partner>.title>h4{font-size: 0.32rem;color: #111111;font-weight: normal;}
+#content>.middle>.partner>.partner_show{margin-bottom: 1.4rem;}
+#content>.middle>.partner>.partner_show>ul{margin-top: 0.2rem; text-align: center;}
+#content>.middle>.partner>.partner_show>ul>li{float: left; width: 30%;}
+#content>.middle>.partner>.partner_show>ul>li:nth-child(1){margin-left: 0.3rem; border-left: 0.01rem solid #979797;}
+#content>.middle>.partner>.partner_show>ul>li:nth-child(4){margin-left: 0.3rem; border-left: 0.01rem solid #979797;}
+
+#content>.middle>.partner>.partner_show>ul>li:nth-child(7){margin-left: 0.3rem; border-left: 0.01rem solid #979797;}
+
+#content>.middle>.partner>.partner_show>ul>li>a>img{display: inline-block;width: 1.48rem;height: 0.73rem}
+#content>.middle>.partner>.circle{margin-bottom: 0.2rem;}
+#content>.middle>.partner>.circle>ul{margin: 0 auto; width: 1rem;height: 0.12rem;}
+#content>.middle>.partner>.circle>ul>li{display:inline-block; float: left;width: 0.12rem;height: 0.12rem;border-radius: 0.12rem;background-color: #1e1e1e;cursor: pointer;left: 50%; margin-right: 0.2rem; }
+#content>.middle>.partner>.circle>ul>li:hover{background-color: #f43434;}
+#content>.middle>.partner>.circle>ul>.on{background-color: #f43434;}
+/***合作伙伴***/
+
+/**响应导航**/
+.nav_toggle{ position: absolute;right: 15px;border: none; background: none; height: 0.6rem;overflow: hidden;top:50%;transition:all 0.8s;}
+.nav_toggle>span{ display: block; width: 0.43rem;height: 0.04rem; background: #666666;margin-bottom: 0.13rem;}
+.navbar{ position: absolute; width: 100%; background: #e6e6e6;top:100; width: 45%;right:-45%;transition:all 0.8s;}
+.navbar.active{ right: 0;}
+.navbar li{ height: 0.5rem; line-height: 0.5rem; font-size: 0.2rem; font-family: '微软雅黑';}
+.navbar li a{ display: block; color: #e94729; padding:0.15rem;font-size: 0.18rem;}
+.navbar li:nth-of-type(4){padding-bottom: 0.2rem;}
+.nav_toggle.active{transform:rotate(360deg);right:50%;}
+/**响应导航**/

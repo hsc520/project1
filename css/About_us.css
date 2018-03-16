@@ -1,0 +1,30 @@
+body,html{ overflow-x: hidden; position: relative;}
+#container>.content>.title{ border-top: 0.2rem solid #eaeaea;position: relative; margin-top: 0.2rem;}
+#container>.content>.title>h1{font-size: 0.36rem; font-family: "微软雅黑";color: #292929;float: left;margin-left: 0.2rem;margin-top: 0.2rem;margin-bottom: 0.2rem;font-weight: normal;}
+#container>.content>.title>h2{font-size: 0.32rem;color: #969595;float: left; margin-top: 0.3rem;font-weight: normal;}
+/**小图标***/
+#container>.content>.title>.nav_toggle{float: right;margin-top: 0.1rem; margin-right: 0.2rem;}
+#container>.content>.title>.nav_toggle>span{display: block; width: 0.4rem;height: 0.05rem;background-color: black; margin-top: 0.1rem;}
+/**小图标***/
+#container>.content>.nav{background-color: #f2f2f2;}
+#container>.content>.nav>ul>li{border-bottom: 0.02rem solid #d3d3d3;padding-left: 0.2rem;padding-top: 0.1rem;padding-bottom: 0.1rem; }
+#container>.content>.nav>ul>.on>a{color: #acce3f;}
+#container>.content>.nav>ul>li>a{display: block; text-decoration: none;font-size: 0.3rem; color: #111111;}
+#container>.content>.nav>ul>li>a:hover{color: #acce3f;}
+#container>.content>.article{width: 5.85rem;font-size: 0.32rem;text-indent: 2em; margin-top: 0.2rem;text-align: center;margin-left: 0.2rem;}
+#container>.content>.article>p{font-size: 0.32rem;text-indent: 2em;text-align: left;line-height: 0.5rem;clear: both;}
+#container>.content>.photo{width: 6.4rem;margin-top: 0.2rem;border-bottom: 0.2rem solid #eaeaea;}
+#container>.content>.photo>img{margin-bottom: 0.2rem; margin: 0.2rem;width: 95%;}
+
+/**特效导航**/
+.nav_toggle{ position: absolute;right: 0.15rem;border: none; background: none; height: 0.6rem;overflow: hidden;top:50%;margin-top: 0.19rem;transition:all 0.8s;}
+.nav_toggle>span{ display: block; width: 0.43rem;height: 0.04rem; background: #666666;margin-bottom: 0.13rem;}
+.navbar{ position: absolute; width: 100%; background: #e6e6e6;top:4.82rem; width: 45%;right:-45%;transition:all 0.8s;}
+.navbar.active{ right: 0;}
+.navbar li{ height: 0.5rem; line-height: 0.5rem; font-size: 0.2rem; font-family: '微软雅黑';}
+.navbar>ul>li:nth-of-type(5){padding-bottom: 0.4rem;}
+.navbar li a{ display: block; color: #e94729; padding:15px;font-size: 0.18rem;}
+/*//新添类名*/
+.nav_toggle.active{transform:rotate(360deg);right:50%;}
+/**特效导航**/
+

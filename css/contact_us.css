@@ -1,0 +1,35 @@
+
+#container>.content>h1{font-size: 0.38rem;margin-top: 0.35rem;text-align: center;font-weight: normal;}
+#container>.content>span{display: inline-block;width: 2rem;height: 0.01rem; background: black;text-align: center;margin-left: 2.2rem;}
+#container>.content>h3{font-size: 0.32rem;text-align: center;font-weight: normal;}
+
+#container>.content>.map{text-align: center; margin-top: 0.2rem;margin-right: 0.2rem;width: 6rem;}
+#container>.content>.map>iframe{display: inline-block;width: 5.85rem;height: 3rem;border: none;margin-left: 0.2rem;margin-right: 0.2rem;}
+
+#container>.content>.info{width: 100%; border-bottom: 0.2rem solid #eaeaea;}
+/*#container>.content>.info>.title{text-align: center;font-size: 0.32rem;margin-top: 0.2rem;}*/
+#container>.content>.info>p{font-size: 0.32rem;margin-left: 0.97rem; color: #969595;line-height: 0.5rem;}
+#container>.content>.info>h2{padding-top: 0.2rem;font-size: 0.32rem;text-align: center;font-weight: normal;padding-bottom: 0.2rem;}
+#container>.content>.info>p:nth-of-type(4){margin-bottom: 0.2rem;}
+#container>.content>.form{width: 100%;border-bottom: 0.2rem solid #eaeaea;}
+#container>.content>.form>form>.message>p{font-size: 0.32rem;color: #969595; margin: 0.2rem;}
+#container>.content>.form>form>.name>p{font-size: 0.32rem;color: #969595; margin: 0.2rem;}
+#container>.content>.form>form>.tel>p{font-size: 0.32rem;color: #969595; margin: 0.2rem;}
+#container>.content>.form>form>.check>p{font-size: 32px;color: #969595; margin: 0.2rem;}
+#container>.content>.form>form>.message>textarea{width: 90%;height: 1.72rem; resize: none; padding-left: 0.08rem; margin-left: 0.2rem;padding-top: 0.08rem;font-size: 0.25rem;width: 90%;padding-right: 0.08rem;}
+
+#container>.content>.form>form>.name>input{width:90%;height:0.42rem; margin-left: 0.2rem; padding-left: 0.1rem;font-size: 0.20rem;padding-top: 0.08rem;padding-right: 0.08rem;}
+#container>.content>.form>form>.tel>input{width:90%;height:0.42rem; margin-left: 0.2rem; padding-left: 0.08rem;font-size: 0.20rem;padding-right:0.08rem;padding-top: 0.05rem}
+
+#container>.content>.form>form>.check>input{width: 1.9rem;height:0.42rem; margin-left: 0.2rem; padding-left: 0.08rem;float: left;font-size: 0.2rem;padding-right: 0.08rem;line-height: 0.42rem;}
+
+#container>.content>.form>form>.check>span{float: left; margin-left: 0.2rem;}
+#container>.content>.form>form>.check>span>img{display: inline-block;width: 1.33rem;height: 0.5rem;}
+#container>.content>.form>form>.check>a{color: gray;font-size: 0.27rem;display: inline-block;}
+#container>.content>.form>form>.check>p{font-size: 0.32rem;}
+#container>.content>.form>form>.check>a>span{display: inline-block;margin-left: 0.2rem;font-size: 0.27rem;margin-top: 0.05rem;}
+#container>.content>.form>form>button{width: 2rem;height: 0.5rem;text-align: center;margin: 0 auto;display: block;background-color: #adce43;color: white;border-radius: 0.3rem;margin-top: 0.25rem;margin-bottom: 0.25rem;}
+/*//合作伙伴部分*/
+.partner_show>ul>li>a>img{display: inline-block;width: 1.48rem;height: 0.73rem;}
+#container>.content>.partner>.partner_show>ul>li{width: 27%;margin-right: 0.1rem;}
+#container>.content>.partner>.partner_show>.circle>ul>.on{background-color: #f43434;}

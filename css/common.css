@@ -1,0 +1,89 @@
+*{padding: 0;margin: 0;font-size: 12px;}
+ul,li{list-style: none;}
+#header{width: 100%;background-color:#1e1e1e;text-align: center;}
+#header>img{height: 0.77rem;width: 2.35rem; display: table-cell;vertical-align: middle;display: inline-block;}
+.clear{clear: both;}
+button{outline: none;}
+textarea{outline: none;}
+
+/**导航栏部分**/
+#container>.nav{background-color:black;height: 0.6rem;border-top: 1px solid #fff;}
+#container>.nav>ul>li{float: left;width: 23%; border-right: 1px solid white;}
+#container>.nav>ul>li>a:hover{color: #9cb73c;}
+#container>.nav>ul>li:nth-child(1){margin-left: 0.2rem;}
+#container>.nav>ul>li:nth-child(4){border-right: none;}
+
+#container>.nav>ul>li>a{display:block; text-align: center;text-decoration: none;color: white;height: inherit;line-height: 0.6rem;font-size: 0.32rem;}
+#container>.banner>ul>li{width: 100%}
+#container>.banner>ul>li>img{width: 100%;}
+.banner{position:relative;}
+.banner>ul{position:relative;height:3rem;}
+.banner>ul>li{width:100%;position:absolute;}
+.banner>ul>li>img{width:100%;}
+button,a{outline: none;border: none;cursor: pointer;}
+input{outline: none;}
+a{text-decoration: none;}
+textarea{outline: none;}
+
+.banner .circle{width:100%;height:0.07rem;position: absolute;left:50%;bottom:0.08rem;}
+.banner .circle>li{width:0.12rem;height:0.12rem;background:#dcdcdc;border-radius: 0.05rem;float: left;margin-right:0.2rem;}
+.banner .circle li.on{width:0.12rem;height:0.12rem;border-radius:0.12rem;background: #d1f464;}
+
+
+
+
+#footer{background-color: #121212; color: white; text-align: center; margin-top: 0,02rem;}
+#footer>p{font-size: 0.27rem; font-size: "Regular";line-height: 0.4rem;}
+#footer>p:nth-of-type(1){padding-top: 0.15rem;}
+#footer>p:nth-of-type(2){padding-bottom: 0.15rem;}
+
+
+
+/***合作伙伴***/
+#container>.content>.partner>.title{text-align: center;}
+#container>.content>.partner>.title>h3{font-size: 0.38rem; margin-top: 0.2rem; color: #111111;font-weight: normal;}
+#container>.content>.partner>.title>span{display: inline-block;width: 2rem;height: 0.01rem;background-color: black; margin: 0.05 auto;}
+#container>.content>.partner>.title>h4{font-size: 0.32rem;color: #111111;font-weight: normal;}
+/*#container>.content>.partner>.partner_show{margin-bottom: 1.4rem;}
+#container>.content>.partner>.partner_show>.on{display: block; margin-top: 0.2rem;}
+#container>.content>.partner>.partner_show>ul{margin-top: 0.2rem; text-align: center;display: none;}
+#container>.content>.partner>.partner_show>ul>li{float: left; width: 25%;}*/
+/*#container>.content*/
+.partner>.partner_show{margin-bottom: 1.4rem;}
+.partner>.partner_show>ul{margin-top: 0.2rem; text-align: center;}
+.partner>.partner_show>ul>li{float: left; width: 30%;}
+.partner>.partner_show>ul>li:nth-child(1){margin-left: 0.3rem; border-left: 0.01rem solid #979797;}
+.partner>.partner_show>ul>li:nth-child(4){margin-left: 0.3rem; border-left: 0.01rem solid #979797;}
+.partner>.partner_show>ul>li:nth-child(7){margin-left: 0.3rem; border-left: 0.01rem solid #979797;}
+
+.partner>.partner_show>ul>li>a>img{display: inline-block;width: 1.48rem;height: 0.73rem}
+.partner>.circle{margin-bottom: 0.2rem;}
+.partner>.circle>ul{margin: 0 auto; width: 1rem;height: 0.12rem;}
+.partner>.circle>ul>li{display:inline-block; float: left;width: 0.12rem;height: 0.12rem;border-radius: 0.12rem;background-color: #1e1e1e;cursor: pointer;left: 50%; margin-right: 0.2rem; }
+.partner>.circle>ul>li:hover{background-color: #f43434;}
+.partner>.circle>ul>.on{background-color: #f43434;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#container>.content>.partner>.partner_show>ul>li:nth-child(1){margin-left: 30px; border-left: 1px solid #979797;}
+#container>.content>.partner>.partner_show>ul>li:nth-child(2){border-top: 1px solid #979797; margin-right: 20px;}
+#container>.content>.partner>.partner_show>ul>li:nth-child(3){border-top:1px solid #979797; border-left: 1px solid #979797;}
+#container>.content>.partner>.partner_show>ul>li>a>img{display: inline-block;width:1.48rem;height: 0.73rem;}
+#container>.content>.partner>.circle{margin-bottom: 0.2rem;}
+#container>.content>.partner>.circle>ul{margin: 0 auto; width: 1rem;height: 12px;}
+#container>.content>.partner>.circle>ul>li{display:inline-block; float: left;width: 0.12rem;height: 0.12rem;border-radius: 0.12rem;background-color: #1e1e1e;cursor: pointer;left: 50%; margin-right: 0.2rem; }
+#container>.content>.partner>.circle>ul>li:hover{background-color: #f43434;}
+#container>.content>.partner>.circle>ul>.on{background-color: #f43434;}*/
+/***合作伙伴***/
+
+
